@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CFE94C014B5E2480056BC1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFE94BF14B5E2480056BC1B /* UIKit.framework */; };
+		4CFE94C214B5E2480056BC1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFE94C114B5E2480056BC1B /* Foundation.framework */; };
+		4CFE94C414B5E2480056BC1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFE94C314B5E2480056BC1B /* CoreGraphics.framework */; };
+		4CFE94CA14B5E2480056BC1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CFE94C814B5E2480056BC1B /* InfoPlist.strings */; };
+		4CFE94CC14B5E2480056BC1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE94CB14B5E2480056BC1B /* main.m */; };
+		4CFE94D014B5E2480056BC1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE94CF14B5E2480056BC1B /* AppDelegate.m */; };
+		4CFE94D314B5E2480056BC1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFE94D214B5E2480056BC1B /* ViewController.m */; };
+		4CFE94D614B5E2480056BC1B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CFE94D414B5E2480056BC1B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CFE94BB14B5E2480056BC1B /* MultiNavigatorItemButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiNavigatorItemButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFE94BF14B5E2480056BC1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CFE94C114B5E2480056BC1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CFE94C314B5E2480056BC1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CFE94C714B5E2480056BC1B /* MultiNavigatorItemButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiNavigatorItemButtons-Info.plist"; sourceTree = "<group>"; };
+		4CFE94C914B5E2480056BC1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CFE94CB14B5E2480056BC1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CFE94CD14B5E2480056BC1B /* MultiNavigatorItemButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiNavigatorItemButtons-Prefix.pch"; sourceTree = "<group>"; };
+		4CFE94CE14B5E2480056BC1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CFE94CF14B5E2480056BC1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CFE94D114B5E2480056BC1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CFE94D214B5E2480056BC1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CFE94D514B5E2480056BC1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CFE94B814B5E2480056BC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFE94C014B5E2480056BC1B /* UIKit.framework in Frameworks */,
+				4CFE94C214B5E2480056BC1B /* Foundation.framework in Frameworks */,
+				4CFE94C414B5E2480056BC1B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CFE94B014B5E2470056BC1B = {
+			isa = PBXGroup;
+			children = (
+				4CFE94C514B5E2480056BC1B /* MultiNavigatorItemButtons */,
+				4CFE94BE14B5E2480056BC1B /* Frameworks */,
+				4CFE94BC14B5E2480056BC1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CFE94BC14B5E2480056BC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CFE94BB14B5E2480056BC1B /* MultiNavigatorItemButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CFE94BE14B5E2480056BC1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CFE94BF14B5E2480056BC1B /* UIKit.framework */,
+				4CFE94C114B5E2480056BC1B /* Foundation.framework */,
+				4CFE94C314B5E2480056BC1B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CFE94C514B5E2480056BC1B /* MultiNavigatorItemButtons */ = {
+			isa = PBXGroup;
+			children = (
+				4CFE94CE14B5E2480056BC1B /* AppDelegate.h */,
+				4CFE94CF14B5E2480056BC1B /* AppDelegate.m */,
+				4CFE94D114B5E2480056BC1B /* ViewController.h */,
+				4CFE94D214B5E2480056BC1B /* ViewController.m */,
+				4CFE94D414B5E2480056BC1B /* ViewController.xib */,
+				4CFE94C614B5E2480056BC1B /* Supporting Files */,
+			);
+			path = MultiNavigatorItemButtons;
+			sourceTree = "<group>";
+		};
+		4CFE94C614B5E2480056BC1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CFE94C714B5E2480056BC1B /* MultiNavigatorItemButtons-Info.plist */,
+				4CFE94C814B5E2480056BC1B /* InfoPlist.strings */,
+				4CFE94CB14B5E2480056BC1B /* main.m */,
+				4CFE94CD14B5E2480056BC1B /* MultiNavigatorItemButtons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CFE94BA14B5E2480056BC1B /* MultiNavigatorItemButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CFE94D914B5E2480056BC1B /* Build configuration list for PBXNativeTarget "MultiNavigatorItemButtons" */;
+			buildPhases = (
+				4CFE94B714B5E2480056BC1B /* Sources */,
+				4CFE94B814B5E2480056BC1B /* Frameworks */,
+				4CFE94B914B5E2480056BC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiNavigatorItemButtons;
+			productName = MultiNavigatorItemButtons;
+			productReference = 4CFE94BB14B5E2480056BC1B /* MultiNavigatorItemButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CFE94B214B5E2470056BC1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4CFE94B514B5E2470056BC1B /* Build configuration list for PBXProject "MultiNavigatorItemButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CFE94B014B5E2470056BC1B;
+			productRefGroup = 4CFE94BC14B5E2480056BC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CFE94BA14B5E2480056BC1B /* MultiNavigatorItemButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CFE94B914B5E2480056BC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFE94CA14B5E2480056BC1B /* InfoPlist.strings in Resources */,
+				4CFE94D614B5E2480056BC1B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CFE94B714B5E2480056BC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFE94CC14B5E2480056BC1B /* main.m in Sources */,
+				4CFE94D014B5E2480056BC1B /* AppDelegate.m in Sources */,
+				4CFE94D314B5E2480056BC1B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CFE94C814B5E2480056BC1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CFE94C914B5E2480056BC1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CFE94D414B5E2480056BC1B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CFE94D514B5E2480056BC1B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CFE94D714B5E2480056BC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CFE94D814B5E2480056BC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CFE94DA14B5E2480056BC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiNavigatorItemButtons/MultiNavigatorItemButtons-Prefix.pch";
+				INFOPLIST_FILE = "MultiNavigatorItemButtons/MultiNavigatorItemButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CFE94DB14B5E2480056BC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiNavigatorItemButtons/MultiNavigatorItemButtons-Prefix.pch";
+				INFOPLIST_FILE = "MultiNavigatorItemButtons/MultiNavigatorItemButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CFE94B514B5E2470056BC1B /* Build configuration list for PBXProject "MultiNavigatorItemButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFE94D714B5E2480056BC1B /* Debug */,
+				4CFE94D814B5E2480056BC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CFE94D914B5E2480056BC1B /* Build configuration list for PBXNativeTarget "MultiNavigatorItemButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFE94DA14B5E2480056BC1B /* Debug */,
+				4CFE94DB14B5E2480056BC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CFE94B214B5E2470056BC1B /* Project object */;
+}
